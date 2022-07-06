@@ -3,14 +3,12 @@
     padding: 0;
     
 }
-
 .bannerDiv {
     background-image: url("../img/donation5.jpg");
     background-repeat: no-repeat;
     height: 850px;
     background-position: center;
     background-size: cover;
-    
 }
 .bannerText {
     text-align: center;
@@ -30,7 +28,7 @@
 .bannerText span {
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 25px;
@@ -38,7 +36,7 @@
 }
 .bannerText button {
     position: absolute;
-    top: 60%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);  
 }
@@ -155,9 +153,117 @@ button {
 }
 
 .planThird p {
-    color: #6D6E80;;
+    color: #6D6E80;
 }
 
+.subscribeDiv {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.subscribeDiv .heading {
+    margin-bottom: 20px;
+}
+
+.subscribeBox {
+    width: 600px;
+    background-color: #33ccff;
+    padding: 80px;
+    margin: auto;
+}
+.subscribeBox input {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.subscribeButton {
+    border: none;
+    background-color: #ff1a75;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.donateHereDiv {
+    background-image: url("../img/donationhere.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.donateHere {
+    padding:40px;
+    display: flex;
+    justify-content: center;
+}
+
+.leftDiv {
+    padding-top: 70px;
+}
+
+.leftDiv p {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.leftDiv span {
+    font-size: 20px;
+    color: #6D6E80;
+}
+
+.rightDiv {
+    padding-left: 100px;
+}
+
+.rightDiv .title {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: #ff1a75;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+.donateHereBox {
+    background-color: white;
+    padding: 80px;
+}
+
+.donateHereBox span {
+    color: #6D6E80;
+}
+
+.donateHereBox form {
+    margin-top: 20px;
+}
+
+.donateHereBox input {
+    padding: 15px;
+    border-radius: 2px;
+    border-color: 1px solid #6D6E80;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.buttonTaka button{
+    background-color: lightgrey;
+    border: 1px solid #6D6E80;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.buttonTaka button:hover{
+    border: 2px solid #ff1a75;
+}
+
+.donateHereNext {
+    padding-left: 100px;
+    padding-right: 100px;
+}
 .footer .footerTextDiv{
     background-color: #1A1A1A;
     padding: 40px;
